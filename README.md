@@ -1,3 +1,7 @@
+  ## Live Demo
+
+  [View the live app on Vercel](https://audioglow-tan.vercel.app)
+
 # AudioGlow 🎵✨
 
 A stunning WebGL music visualizer with multiple reactive backgrounds and real-time audio analysis.
