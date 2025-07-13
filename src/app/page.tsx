@@ -446,7 +446,7 @@ export default function Home() {
     };
     const handleDragLeave = (e: DragEvent) => {
       preventDefaults(e);
-      if (e.relatedTarget === null || !e.currentTarget?.contains(e.relatedTarget as Node)) {
+      if (e.relatedTarget === null || !(e.currentTarget as Element)?.contains(e.relatedTarget as Node)) {
         setIsDraggingOver(false);
       }
     };
